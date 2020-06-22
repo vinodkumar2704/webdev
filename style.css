@@ -1,0 +1,120 @@
+h1{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	background-color: lightblue;
+	padding: 30px;
+	margin: 0px;
+}
+hr{
+	border: 2px solid blue;
+}
+h2{
+	text-align: center;
+}
+.product{
+	border: 1px solid black;
+	width: 60%;
+}
+p{
+	font-family: Montserrat;
+	margin-left:100px;
+	margin-right: 50px;
+	/*padding: 10px;*/
+
+}
+p a{
+	text-decoration: none;
+}
+p a:hover{
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+header{
+	background: black;
+	padding: 18px;
+	margin: 0px;
+	margin-bottom: 0px;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	display: inline;
+	margin :100px;
+}
+
+li a{
+	color: white;
+	text-decoration:none;
+	font-family: Montserrat;
+
+}
+
+li a:hover {
+	color: red;
+
+}
+section{
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.button {
+
+	border: none;
+	color: black;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: lightgreen;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button6 {
+  background-color: grey;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button6:hover {
+  background-color: #555555;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+footer{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	font-size: 10px;
+	height: 60px;
+}
+footer a {
+	text-decoration: underline; 
+	color: white;
+}
+footer p a:hover{
+	font-family: 'Roboto', sans-serif;
+	text-decoration-color: red;
+	font-size: 117%;
+}
